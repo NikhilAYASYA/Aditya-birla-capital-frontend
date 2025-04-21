@@ -51,147 +51,147 @@ const GET_FOOTER_DATA = gql`
 `;
 
 const GET_HOMEPAGE_DATA = gql`
-  query Home {
-    home {
-      aboutFinancialLiteracySection {
-        mainHeading {
-          heading
-          color
-          breakLine
+query Home {
+  home {
+    aboutFinancialLiteracySection {
+      mainHeading {
+        heading
+        color
+        breakLine
+      }
+      descriptionText {
+        description
+      }
+      tag {
+        icon {
+          url
+          alternativeText
         }
-        descriptionText {
-          description
+        title
+      }
+      financialCards {
+        heading
+        subHeading
+      }
+    }
+    financialLiteracyMattersSection {
+      mainHeading {
+        heading
+        color
+        breakLine
+      }
+      teaser {
+        desktopMedia {
+          url
+          alternativeText
         }
-        tag {
+        mobileMedia {
+          url
+          alternativeText
+        }
+        heading
+        description
+        cta {
           icon {
             url
             alternativeText
           }
           title
-        }
-        financialCards {
-          heading
-          subHeading
+          url
+          openInNewTab
         }
       }
-      financialLiteracyMattersSection {
-        mainHeading {
-          heading
-          color
-          breakLine
+    }
+    advantagesProgramSection {
+      mainHeading {
+        heading
+        color
+        breakLine
+      }
+      description {
+        description
+      }
+      advantageCard {
+        icon {
+          url
+          alternativeText
         }
-        videoTeaser {
-          desktopVideo {
+        heading
+        tag
+        description
+      }
+    }
+    roadMapWealthSection {
+      mainHeading {
+        heading
+        color
+        breakLine
+      }
+ 
+      roadmapCards {
+        heading
+        description
+      }
+      media {
+        image {
+          url
+          alternativeText
+        }
+      }
+    }
+    platformResourcesSection {
+      mainHeading {
+        heading
+        color
+        breakLine
+      }
+      resourceCard {
+        media {
+          image {
             url
             alternativeText
           }
-          mobileVideo {
-            url
-            alternativeText
-          }
-          heading
-          description
-          cta {
-            icon {
-              url
-              alternativeText
-            }
-            title
-            url
-            openInNewTab
-          }
+        }
+        heading
+      }
+    }
+    downloadAppSection {
+      media {
+        image {
+          url
+          alternativeText
         }
       }
-      advantagesProgramSection {
-        mainHeading {
+      descriptionCard {
+        heading
+        subHeading
+        keyHeading {
           heading
-          color
-          breakLine
         }
-        description {
-          description
-        }
-        advantageCard {
+        cta {
           icon {
             url
             alternativeText
           }
-          heading
-          tag
-          description
-        }
-      }
-      roadMapWealthSection {
-        mainHeading {
-          heading
-          color
-          breakLine
-        }
-
-        roadmapCards {
-          heading
-          description
-        }
-        media {
-          image {
-            url
-            alternativeText
-          }
-        }
-      }
-      platformResourcesSection {
-        mainHeading {
-          heading
-          color
-          breakLine
-        }
-        resourceCard {
-          media {
-            image {
-              url
-              alternativeText
-            }
-          }
-          heading
-        }
-      }
-      downloadAppSection {
-        media {
-          image {
-            url
-            alternativeText
-          }
-        }
-        descriptionCard {
-          heading
-          subHeading
-          keyHeading {
-            heading
-          }
-          cta {
-            icon {
-              url
-              alternativeText
-            }
-            title
-            url
-            openInNewTab
-          }
-        }
-      }
-      faqSection {
-        mainHeading {
-          heading
-          color
-          breakLine
-        }
-        faqAccordion {
-          heading
-          description
+          title
+          url
+          openInNewTab
         }
       }
     }
+    faqSection {
+      mainHeading {
+        heading
+        color
+        breakLine
+      }
+      faqAccordion {
+        heading
+        description
+      }
+    }
   }
+}
 `;
 
 export { GET_HEADER_DATA, GET_HOMEPAGE_DATA, GET_FOOTER_DATA };

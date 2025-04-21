@@ -37,17 +37,17 @@ export default async function Home() {
     {},
   );
   const faqSectionData = _get(homepageData, "home.faqSection", {});
-
+  
   return (
     <>
       <FinancialLiteracyProgramSection
         financialLiteracySectionData={financialLiteracySectionData}
       />
-      <FinancialLiteracyMattersSection
+      {/* <FinancialLiteracyMattersSection
         financialLiteracyMattersSectionData={
           financialLiteracyMattersSectionData
         }
-      />
+      /> */}
       <ProgramAdvantageSection advantageSectionData={advantageSectionData} />
       <StepsToWealth stepsToWealthData={stepsToWealthData} />
       <ParallaxSection platformSectionData={platformSectionData} />

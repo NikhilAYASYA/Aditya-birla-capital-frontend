@@ -9,6 +9,7 @@ const fetchHomePageData = async () => {
     });
     return response.data;
   } catch (error) {
+    console.error("Failed to fetch homepage data:");
     console.log("error", error);
     return {};
   }
