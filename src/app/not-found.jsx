@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <div className="flex flex-col items-center gap-y-3 h-screen text-center justify-center">
       <div>
-        <img src={errorImage?.src} alt="error-image"/>
+        <img src="/errorImage.webp" alt="error-image"/>
       </div>
       <h2 className="md:text-3xl text-2xl font-medium">Oops!</h2>
       <p className="md:text-xl">
