@@ -91,7 +91,7 @@ const FinancialLiteracyMattersSection = ({
                     <img
                       src={item?.desktopMedia?.url}
                       alt={item?.desktopMedia?.alternativeText || "gif"}
-                      className="w-full h-full rounded-4xl object-none"
+                      className="w-full h-full rounded-4xl"
                     />
                   </div>
                   {item?.mobileMedia && (
