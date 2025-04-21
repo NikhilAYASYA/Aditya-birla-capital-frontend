@@ -20,7 +20,7 @@ const FinancialLiteracyMattersSection = ({
                 financialLiteracyMattersSectionData.mainHeading
               }
             />
-            <div className="flex flex-col md:flex-row items-center gap-3 md:gap-[40px] bg-[#FBF7D3] px-2 md:px-1 rounded-[20px] md:rounded-4xl">
+            <div className="flex flex-col md:flex-row items-center gap-3 md:gap-[40px] bg-[#FBF7D3] px-2 md:px-1 rounded-[20px] md:rounded-4xl md:py-1">
               {/* Image Section */}
               <div className="w-full h-full md:max-w-[616px] md:h-[518px] hidden md:flex justify-center rounded-3xl">
                 <img
@@ -87,11 +87,11 @@ const FinancialLiteracyMattersSection = ({
                     borderColor: bgColors[index],
                   }}
                 >
-                  <div className="rounded-3xl p-0.2 w-full hidden md:flex justify-center">
+                  <div className="rounded-3xl p-0.2 w-full md:h-[497px] hidden md:flex justify-center">
                     <img
                       src={item?.desktopMedia?.url}
                       alt={item?.desktopMedia?.alternativeText || "gif"}
-                      className="w-full h-full rounded-4xl"
+                      className="w-full h-full rounded-4xl object-none"
                     />
                   </div>
                   {item?.mobileMedia && (
