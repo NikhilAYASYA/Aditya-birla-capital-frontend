@@ -43,11 +43,11 @@ export default async function Home() {
       <FinancialLiteracyProgramSection
         financialLiteracySectionData={financialLiteracySectionData}
       />
-      {/* <FinancialLiteracyMattersSection
+      <FinancialLiteracyMattersSection
         financialLiteracyMattersSectionData={
           financialLiteracyMattersSectionData
         }
-      /> */}
+      />
       <ProgramAdvantageSection advantageSectionData={advantageSectionData} />
       <StepsToWealth stepsToWealthData={stepsToWealthData} />
       <ParallaxSection platformSectionData={platformSectionData} />
