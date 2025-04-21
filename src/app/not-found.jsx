@@ -1,5 +1,5 @@
 import Link from "next/link";
-import errorImage from "../../public/errorImage.webp";
+// import errorImage from "../../public/errorImage.webp";
 
 export default function NotFound() {
   return (
