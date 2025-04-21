@@ -60,8 +60,8 @@
     left: 0;
     width: 100%;
     transform: rotateX(180deg);
-    border-top-left-radius: calc(infinity * 1px);
-    border-top-right-radius: calc(infinity * 1px);
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
     background: linear-gradient(
       to bottom,
       rgba(241, 248, 240) 0%,
