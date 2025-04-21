@@ -94,7 +94,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../../public/faqbackground.webp") no-repeat center center;
+  background: url("/faqbackground.webp") no-repeat center center;
   background-size: cover;
   filter: brightness(0.98);
 }
@@ -106,7 +106,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("../../public/advantagebackground.webp") no-repeat center
+  background: url("/advantagebackground.webp") no-repeat center
     center;
   background-size: cover;
   z-index: -1;
@@ -126,7 +126,7 @@
 }
 @media screen and (max-width: 600px) {
   .advantage-section::before {
-    background: url("../../public/advantagebgmobile.svg") no-repeat center
+    background: url("/public/advantagebgmobile.svg") no-repeat center
       center;
     right: 0;
     left: 0;
