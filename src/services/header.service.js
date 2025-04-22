@@ -5,7 +5,7 @@ const fetchHeaderData = async () => {
   try {
     const response = await client.query({
       query: GET_HEADER_DATA,
-      fetchPolicy: "no-cache",
+      fetchPolicy: "network-only",
     });
     return response.data;
   } catch (error) {
